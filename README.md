@@ -146,11 +146,11 @@ You can check linter errors by running these commands:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Zilola Nazarova**
+👤 **Yesuf Fenta**
 
 - GitHub: [@yusufyusie ](https://github.com/yusufyusie)
 - LinkedIn: [in/yusufyusie](https://www.linkedin.com/in/yusufyusie)
-- Twitter: [@NazarovaZi](https://twitter.com/yusufyusiee)
+- Twitter: [@yusufyusiee](https://twitter.com/yusufyusiee)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
