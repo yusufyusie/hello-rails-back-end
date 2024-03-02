@@ -7,8 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-Message.create(content: "Hello!")
-Message.create(content: "Hi there!")
-Message.create(content: "Welcome!")
-Message.create(content: "Greetings!")
-Message.create(content: "Hey!")
+greeting1 = Greeting.create(message: "This is my first greeting")
+greeting2 = Greeting.create(message: "This is my second greeting")
+greeting3 = Greeting.create(message: "This is my third greeting")
+greeting4 = Greeting.create(message: "This is my fourth greeting")
+greeting5 = Greeting.create(message: "This is my fifth greeting")
