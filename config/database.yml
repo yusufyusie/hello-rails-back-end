@@ -16,9 +16,8 @@ default: &default
   adapter: postgresql
   encoding: unicode
   host: localhost
-  port: 5432
-  username: user
-  password: user
+  username: rails_react
+  password: rails_react
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -83,6 +82,4 @@ test:
 #
 production:
   <<: *default
-  database: hello_rails_back_end_production
-  username: hello_rails_back_end
-  password: <%= ENV["HELLO_RAILS_BACK_END_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>

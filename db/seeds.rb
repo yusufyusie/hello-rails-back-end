@@ -7,6 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
 greeting1 = Greeting.create(message: "This is my first greeting")
 greeting2 = Greeting.create(message: "This is my second greeting")
 greeting3 = Greeting.create(message: "This is my third greeting")
