@@ -127,6 +127,14 @@ Create database:
 Fill the database with sample records:
 > bin/rails db:seed
 
+    or
+- Set up the database
+  Change the username and password of your postgres account in `config/database.yml`
+
+```sh
+ rails db:create db:migrate db:seed
+```
+
 ### Usage
 
 To run the server:
