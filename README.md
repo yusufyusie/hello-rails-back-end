@@ -117,6 +117,8 @@ Create a user (provide the username and password described in [config/database.y
 
 Install the dependencies:
 > gem install
+> bundle install
+> yarn install
 
 Create database:
 > bin/rails db:create
